@@ -3,6 +3,7 @@ import Person from './Person'
 
 const Family = (props) => (
     <div className="family">
+      <p>this is Family</p>
       <Person />
     </div>
   )

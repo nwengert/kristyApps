@@ -5,7 +5,9 @@ export default class MyProvider extends React.Component {
   state = {
     name: 'Wes',
     age: 100,
-    cool: true
+    gender: 'noChange',
+    disciplined: 'noChange',
+    goal: 'noChange'
   }
   render() {
     return (
